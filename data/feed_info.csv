@@ -1,0 +1,2 @@
+﻿source,source_url,fetched_at,coord_system,note
+高德地图公开地铁线网接口（TransitFeeds 无成都 GTFS 时的在线回退）,https://map.amap.com/service/subway?srhdata=5101_drw_chengdu.json,2026-11-19T18:08:34+08:00,已由 GCJ-02 转换为 WGS84,先检索了 TransitFeeds API 与 Mobility Database 目录，未获得成都地铁 GTFS 包。当前 CSV 由上述 URL 实时返回的 JSON 解析得到，不是手写静态数据。站间距反映线网覆盖结构，不是官方客流。

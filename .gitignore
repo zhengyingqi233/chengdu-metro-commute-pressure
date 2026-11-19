@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# 爬虫下载的原始压缩包，CSV 结果保留在 data/ 方便离线演示
+*.zip
+data/raw/
+
+# 编辑器和系统文件
+.idea/
+.vscode/
+.streamlit/secrets.toml
+Thumbs.db
+Desktop.ini
